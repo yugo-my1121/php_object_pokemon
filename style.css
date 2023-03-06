@@ -1,0 +1,17 @@
+/* ボタンを中央に配置するためのスタイル */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* ボタンのスタイル */
+.start {
+  background-color: #4CAF50; /* ボタンの背景色を緑色に設定 */
+  color: white; /* ボタンのテキストカラーを白色に設定 */
+  font-size: 16px; /* ボタンのフォントサイズを16ピクセルに設定 */
+  padding: 10px 20px; /* ボタンのパディングを上下10ピクセル、左右20ピクセルに設定 */
+  border: none; /* ボタンのボーダーを設定しない */
+  border-radius: 5px; /* ボタンの角を丸くするためにボーダーラジウスを5ピクセルに設定 */
+  cursor: pointer; /* マウスがボタンの上にある場合にポインターを表示する */
+}
